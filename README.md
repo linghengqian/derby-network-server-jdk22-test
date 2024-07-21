@@ -10,7 +10,7 @@
   In unit tests, the current project builds the Docker Image through testcontainers-java.
 
 ```shell
-docker build -f ./src/test/resources/Dockerfile --tag apache/derby-network-server:latest .
+docker build -f ./src/test/resources/derby-network-server/Dockerfile --tag apache/derby-network-server:latest .
 docker tag apache/derby-network-server:latest apache/derby-network-server:10.17.1.0
 docker run -p 11527:1527 --rm=true apache/derby-network-server:10.17.1.0
 ```
