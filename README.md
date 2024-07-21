@@ -9,6 +9,7 @@ sdk use java 22.0.2-graalce
 
 docker build -f ./src/test/resources/Dockerfile --tag apache/derby-network-server:latest .
 docker tag apache/derby-network-server:latest apache/derby-network-server:10.17.1.0
+docker run -p 11527:1527 --rm=true apache/derby-network-server:10.17.1.0
 
 git clone git@github.com:linghengqian/derby-network-server-jdk22-test.git
 cd ./derby-network-server-jdk22-test/
