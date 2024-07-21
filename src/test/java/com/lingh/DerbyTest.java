@@ -9,7 +9,6 @@ import org.testcontainers.images.builder.ImageFromDockerfile;
 import org.testcontainers.shaded.org.awaitility.Awaitility;
 
 import java.sql.Connection;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.Duration;
 
