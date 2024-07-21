@@ -1,0 +1,1207 @@
+[
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[B"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[C"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[D"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[F"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[I"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[J"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[Ljava.lang.String;"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[Ljavax.management.openmbean.CompositeData;"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[S"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"[Z"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.GarbageCollectorMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.GcInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.HotSpotDiagnosticMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.ThreadMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.UnixOperatingSystemMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.VMOption",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.internal.GarbageCollectorExtImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.internal.HotSpotDiagnostic",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.internal.HotSpotThreadImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"com.sun.management.internal.OperatingSystemImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Boolean",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Byte",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Character",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Deprecated",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Double",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Float",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Integer",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Long",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.services.cache.ClassSize"},
+  "name":"java.lang.Object",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Short",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.StackTraceElement",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.String",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.Void",
+  "fields":[{"name":"TYPE"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.BufferPoolMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.ClassLoadingMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.CompilationMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.LockInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.ManagementPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.MemoryMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.MemoryManagerMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.MemoryPoolMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.MemoryUsage",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.MonitorInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.PlatformLoggingMXBean",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getLoggerLevel","parameterTypes":["java.lang.String"] }, {"name":"getLoggerNames","parameterTypes":[] }, {"name":"getParentLoggerName","parameterTypes":["java.lang.String"] }, {"name":"setLoggerLevel","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.RuntimeMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.lang.management.ThreadInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.math.BigDecimal"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"java.math.BigDecimal"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.math.BigInteger"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"java.nio.Buffer"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"java.sql.Driver"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.jdbc.SQLExceptionFactory"},
+  "name":"java.sql.SQLException",
+  "fields":[{"name":"next"}]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.util.Date"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.util.PropertyPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.util.logging.LogManager",
+  "methods":[{"name":"getLoggingMXBean","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"java.util.logging.LoggingMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.crypto.SecretKey"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"javax.management.MBeanOperationInfo",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getSignature","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"javax.management.MBeanServerBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"javax.management.ObjectName"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"javax.management.StandardEmitterMBean",
+  "methods":[{"name":"cacheMBeanInfo","parameterTypes":["javax.management.MBeanInfo"] }, {"name":"getCachedMBeanInfo","parameterTypes":[] }, {"name":"getMBeanInfo","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"javax.management.openmbean.CompositeData"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"javax.management.openmbean.OpenMBeanOperationInfoSupport"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"javax.management.openmbean.TabularData"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.naming.directory.InitialDirContext"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.sql.ConnectionPoolDataSource"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.sql.DataSource"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.sql.PooledConnection"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.sql.XAConnection"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.sql.XADataSource"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.transaction.xa.XAException"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.transaction.xa.XAResource"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"javax.transaction.xa.Xid"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"jdk.management.jfr.ConfigurationInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"jdk.management.jfr.EventTypeInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"jdk.management.jfr.FlightRecorderMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"jdk.management.jfr.FlightRecorderMXBeanImpl",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"cacheMBeanInfo","parameterTypes":["javax.management.MBeanInfo"] }, {"name":"getCachedMBeanInfo","parameterTypes":[] }, {"name":"getMBeanInfo","parameterTypes":[] }, {"name":"getNotificationInfo","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"jdk.management.jfr.RecordingInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"jdk.management.jfr.SettingDescriptorInfo",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.catalog.types.IndexDescriptorImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.catalog.types.RoutineAliasInfo",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.catalog.types.RoutineAliasInfo"},
+  "name":"org.apache.derby.catalog.types.TypeDescriptorImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.catalog.types.TypeDescriptorImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.catalog.types.TypesImplInstanceGetter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.catalog.types.UserDefinedTypeIdImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+  "name":"org.apache.derby.database.Database"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.database.Database"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.LoadedGeneratedClass"},
+  "name":"org.apache.derby.exe.ac3ea3c0fbx0190xd3e2xe6b5x00001520f2880",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.LoadedGeneratedClass"},
+  "name":"org.apache.derby.exe.ac3ea3c0fbx0190xd3e2xe6b5x00001520f2881",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.LoadedGeneratedClass"},
+  "name":"org.apache.derby.exe.ac3ea3c0fbx0190xd3e2xe6b5x00001520f2882",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.LoadedGeneratedClass"},
+  "name":"org.apache.derby.exe.ac3ea3c0fbx0190xd3e2xe6b5x00001520f2883",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.LoadedGeneratedClass"},
+  "name":"org.apache.derby.exe.ac3ea3c0fbx0190xd3e2xe6b5x00001520f2884",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.jdbc.InternalDriver"},
+  "name":"org.apache.derby.iapi.jdbc.AuthenticationService"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.jdbc.AuthenticationService"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.jdbc.AuthenticationService"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.jdbc.DRDAServerStarter"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.jdbc.Driver42",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.jdbc.InternalDriver"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.jdbc.InternalDriver"},
+  "name":"org.apache.derby.iapi.jdbc.JDBC",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.jdbc.ResourceAdapter"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.bytecode.BCJava"},
+  "name":"org.apache.derby.iapi.services.cache.CacheFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.iapi.services.cache.CacheFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.services.cache.CacheFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.RAMAccessManager"},
+  "name":"org.apache.derby.iapi.services.cache.CacheFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+  "name":"org.apache.derby.iapi.services.cache.CacheFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.services.cache.ClassSizeCatalog"},
+  "name":"org.apache.derby.iapi.services.cache.ClassSizeCatalogImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.services.compiler.JavaFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+  "name":"org.apache.derby.iapi.services.daemon.DaemonFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.catalog.types.IndexDescriptorImpl"},
+  "name":"org.apache.derby.iapi.services.io.FormatableHashtable",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.services.io.FormatableHashtable"},
+  "name":"org.apache.derby.iapi.services.io.FormatableIntHolder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.services.monitor.Monitor"},
+  "name":"org.apache.derby.iapi.services.jmx.ManagementService"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.services.jmx.ManagementService"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.services.loader.ClassFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.services.loader.ClassFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+  "name":"org.apache.derby.iapi.services.locks.LockFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.xact.XactFactory"},
+  "name":"org.apache.derby.iapi.services.locks.LockFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.services.property.PropertyFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.jdbc.authentication.AuthenticationServiceBase"},
+  "name":"org.apache.derby.iapi.services.property.PropertyFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.services.property.PropertyFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.RAMAccessManager"},
+  "name":"org.apache.derby.iapi.services.property.PropertyFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.services.property.PropertyValidation",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.services.property.PropertyValidation"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.services.timer.TimerFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.services.uuid.UUIDFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.sql.LanguageFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.sql.compile.OptimizerFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.sql.compile.TypeCompilerFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.sql.conn.LanguageConnectionFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.GenericLanguageFactory"},
+  "name":"org.apache.derby.iapi.sql.conn.LanguageConnectionFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.iapi.sql.conn.LanguageConnectionFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.sql.dictionary.DataDictionary"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.iapi.sql.execute.ExecutionFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.sql.execute.ExecutionFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.store.access.AccessFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.jdbc.ResourceAdapterImpl"},
+  "name":"org.apache.derby.iapi.store.access.AccessFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.jdbc.authentication.AuthenticationServiceBase"},
+  "name":"org.apache.derby.iapi.store.access.AccessFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.iapi.store.access.AccessFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.FileContainer"},
+  "name":"org.apache.derby.iapi.store.access.AccessFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.services.monitor.Monitor"},
+  "name":"org.apache.derby.iapi.store.access.conglomerate.MethodFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.RAMAccessManager"},
+  "name":"org.apache.derby.iapi.store.raw.RawStoreFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.store.raw.data.DataFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+  "name":"org.apache.derby.iapi.store.raw.data.DataFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+  "name":"org.apache.derby.iapi.store.raw.data.DataFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.xact.XactFactory"},
+  "name":"org.apache.derby.iapi.store.raw.data.DataFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+  "name":"org.apache.derby.iapi.store.raw.log.LogFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+  "name":"org.apache.derby.iapi.store.raw.log.LogFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.xact.XactFactory"},
+  "name":"org.apache.derby.iapi.store.raw.log.LogFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+  "name":"org.apache.derby.iapi.store.raw.xact.TransactionFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.services.cache.ClassSize"},
+  "name":"org.apache.derby.iapi.types.DataType",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.types.DataValueFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.iapi.types.DataValueFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.xact.XactFactory"},
+  "name":"org.apache.derby.iapi.types.DataValueFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.iapi.types.DataValueFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.iapi.types.DataValueFactoryImpl"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.SQLInteger"},
+  "name":"org.apache.derby.iapi.types.NumberDataType",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.SQLLongint"},
+  "name":"org.apache.derby.iapi.types.NumberDataType",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.SQLBoolean"},
+  "name":"org.apache.derby.iapi.types.SQLBoolean",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.SQLChar"},
+  "name":"org.apache.derby.iapi.types.SQLChar",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.SQLInteger"},
+  "name":"org.apache.derby.iapi.types.SQLInteger",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.SQLLongint"},
+  "name":"org.apache.derby.iapi.types.SQLLongint",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.SQLRef"},
+  "name":"org.apache.derby.iapi.types.SQLRef",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.SQLTimestamp"},
+  "name":"org.apache.derby.iapi.types.SQLTimestamp",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.types.UserType"},
+  "name":"org.apache.derby.iapi.types.UserType",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.db.BasicDatabase",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.db.SlaveDatabase"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.io.VFMemoryStorageFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+  "name":"org.apache.derby.impl.io.VFMemoryStorageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.impl.jdbc.ResourceAdapterImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.jdbc.ResourceAdapterImpl"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.shared.common.error.ExceptionFactory"},
+  "name":"org.apache.derby.impl.jdbc.SQLExceptionFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.jdbc.authentication.BasicAuthenticationServiceImpl"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.jdbc.authentication.JNDIAuthenticationService"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.jdbc.authentication.NativeAuthenticationServiceImpl"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.impl.jdbc.authentication.NoneAuthenticationServiceImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.jdbc.authentication.NoneAuthenticationServiceImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.jdbc.authentication.SpecificAuthenticationServiceImpl"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.bytecode.BCJava"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.impl.services.bytecode.BCJava",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.cache.ConcurrentCacheFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+  "name":"org.apache.derby.impl.services.cache.ConcurrentCacheFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+  "name":"org.apache.derby.impl.services.cache.ConcurrentCacheMBeanImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.daemon.SingleThreadDaemonFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+  "name":"org.apache.derby.impl.services.daemon.SingleThreadDaemonFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.jce.JCECipherFactoryBuilder"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"org.apache.derby.impl.services.jmx.JMXManagementService",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.jmx.JMXManagementService",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"org.apache.derby.impl.services.jmx.JMXManagementService$1",
+  "methods":[{"name":"cacheMBeanInfo","parameterTypes":["javax.management.MBeanInfo"] }, {"name":"getCachedMBeanInfo","parameterTypes":[] }, {"name":"getMBeanInfo","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.jmxnone.NoManagementService"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.locks.ConcurrentPool"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.xact.XactFactory"},
+  "name":"org.apache.derby.impl.services.locks.ConcurrentPool",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.impl.services.reflect.ReflectClassesJava2",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.reflect.ReflectClassesJava2"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.stream.SingleStream",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.timer.SingletonTimerFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.services.uuid.BasicUUIDFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.impl.services.uuid.BasicUUIDGetter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.impl.sql.GenericLanguageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.sql.GenericLanguageFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.impl.sql.catalog.DD_Version",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.impl.sql.catalog.DD_Version",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.compile.ConstantNode"},
+  "name":"org.apache.derby.impl.sql.compile.CharTypeCompiler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.compile.ResultColumn"},
+  "name":"org.apache.derby.impl.sql.compile.CharTypeCompiler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.sql.compile.OptimizerFactoryImpl"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.impl.sql.compile.OptimizerFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.compile.ResultColumn"},
+  "name":"org.apache.derby.impl.sql.compile.RefTypeCompiler",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.sql.compile.TypeCompilerFactoryImpl"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.impl.sql.compile.TypeCompilerFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.LoadedGeneratedClass"},
+  "name":"org.apache.derby.impl.sql.execute.ConstantActionActivation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.ReflectClassesJava2"},
+  "name":"org.apache.derby.impl.sql.execute.ConstantActionActivation"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.sql.execute.GenericExecutionFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.conn.GenericLanguageConnectionFactory"},
+  "name":"org.apache.derby.impl.sql.execute.GenericExecutionFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.sql.execute.RealResultSetStatisticsFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.sql.execute.xplain.XPLAINFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.conglomerate.GenericScanController"},
+  "name":"org.apache.derby.impl.store.access.PC_XenaVersion",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.db.BasicDatabase"},
+  "name":"org.apache.derby.impl.store.access.RllRAMAccessManager",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.access.RllRAMAccessManager"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.StorableFormatId"},
+  "name":"org.apache.derby.impl.store.access.StorableFormatId",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.btree.index.B2I"},
+  "name":"org.apache.derby.impl.store.access.btree.BTree",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.btree.LeafControlRow"},
+  "name":"org.apache.derby.impl.store.access.btree.index.B2I",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.btree.index.B2I"},
+  "name":"org.apache.derby.impl.store.access.btree.index.B2I",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.access.btree.index.B2IFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.RAMAccessManager"},
+  "name":"org.apache.derby.impl.store.access.btree.index.B2IFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.btree.index.B2I"},
+  "name":"org.apache.derby.impl.store.access.conglomerate.GenericConglomerate",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.heap.Heap"},
+  "name":"org.apache.derby.impl.store.access.conglomerate.GenericConglomerate",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.heap.Heap"},
+  "name":"org.apache.derby.impl.store.access.heap.Heap",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.access.heap.HeapConglomerateFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.RAMAccessManager"},
+  "name":"org.apache.derby.impl.store.access.heap.HeapConglomerateFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.heap.HeapRowLocation"},
+  "name":"org.apache.derby.impl.store.access.heap.HeapRowLocation",
+  "allDeclaredFields":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.services.monitor.Monitor"},
+  "name":"org.apache.derby.impl.store.access.sort.ExternalSortFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.access.sort.ExternalSortFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.access.sort.UniqueWithDuplicateNullsExternalSortFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.RAMAccessManager"},
+  "name":"org.apache.derby.impl.store.access.sort.UniqueWithDuplicateNullsExternalSortFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.raw.RawStore"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.access.RAMAccessManager"},
+  "name":"org.apache.derby.impl.store.raw.RawStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.CachedPage"},
+  "name":"org.apache.derby.impl.store.raw.data.AllocPage",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.raw.data.BaseDataFileFactoryJ4"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+  "name":"org.apache.derby.impl.store.raw.data.BaseDataFileFactoryJ4",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.raw.log.LogToFile"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+  "name":"org.apache.derby.impl.store.raw.log.LogToFile",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.raw.log.ReadOnly"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+  "name":"org.apache.derby.impl.store.raw.log.ReadOnly",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.raw.xact.XactFactory"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+  "name":"org.apache.derby.impl.store.raw.xact.XactFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getWarnings","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.replication.master.MasterController"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.impl.store.replication.slave.SlaveController"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+  "name":"org.apache.derby.mbeans.CacheManagerMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.iapi.jdbc.InternalDriver"},
+  "name":"org.apache.derby.mbeans.JDBCMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"org.apache.derby.mbeans.ManagementMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"org.apache.derby.mbeans.Version",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"org.apache.derby.mbeans.VersionMBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+  "name":"org.apache.derby.shared.common.stream.InfoStreams"
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"sun.management.ClassLoadingImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"sun.management.CompilationImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"sun.management.ManagementFactoryHelper$1",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"sun.management.ManagementFactoryHelper$PlatformLoggingImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"sun.management.MemoryImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"sun.management.MemoryManagerImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"sun.management.MemoryPoolImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+  "name":"sun.management.RuntimeImpl",
+  "queryAllPublicConstructors":true
+},
+{
+  "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

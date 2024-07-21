@@ -48,7 +48,7 @@ public class DerbyTest {
 
     @SuppressWarnings("resource")
     @Test
-    @Disabled
+    @Disabled // TODO lingh
     void testDerbyNetworkServer() {
         try (GenericContainer<?> container = new GenericContainer<>(
                 new ImageFromDockerfile().withFileFromClasspath("Dockerfile", "derby-network-server/Dockerfile"))

@@ -17,7 +17,7 @@ docker run -p 11527:1527 --rm=true apache/derby-network-server:10.17.1.0
 
 # 2nd
 
-- Execute unit tests.
+- Execute unit tests under the JVM.
 
 ```shell
 sdk install java 22.0.2-graalce
@@ -26,4 +26,21 @@ sdk use java 22.0.2-graalce
 git clone git@github.com:linghengqian/derby-network-server-jdk22-test.git
 cd ./derby-network-server-jdk22-test/
 ./mvnw -T1C -e clean test
+```
+
+# optional, 3rd
+- Execute unit tests under GraalVM Native Image.
+```shell
+sdk install java 22.0.2-graalce
+sdk use java 22.0.2-graalce
+sudo apt-get install build-essential zlib1g-dev -y
+
+git clone git@github.com:linghengqian/derby-network-server-jdk22-test.git
+cd ./derby-network-server-jdk22-test/
+
+# Running `./mvnw -PgenerateMetadata -DskipNativeTests -e -T1C clean test native:metadata-copy` is not necessary unless unit tests require more GRM
+# ./mvnw -PgenerateMetadata -DskipNativeTests -e -T1C clean test native:metadata-copy
+
+# Running unit tests under GraalVM Native Image
+./mvnw -PnativeTestInJunit -T1C -e clean test
 ```

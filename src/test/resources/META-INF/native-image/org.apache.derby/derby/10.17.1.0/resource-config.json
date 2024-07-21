@@ -1,0 +1,560 @@
+{
+  "resources":{
+  "includes":[{
+    "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\QMETA-INF/services/java.util.spi.ResourceBundleControlProvider\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+    "pattern":"\\Qorg/apache/derby/impl/jdbc/metadata.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.sql.catalog.DataDictionaryImpl"},
+    "pattern":"\\Qorg/apache/derby/impl/sql/catalog/metadata_net.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.client.am.Configuration"},
+    "pattern":"\\Qorg/apache/derby/info/client/info.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.FileMonitor"},
+    "pattern":"\\Qorg/apache/derby/info/engine/info.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m13.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m13_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m13_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m13_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m13_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m16.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m16_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m16_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m16_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m16_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m18.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m18_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m18_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m18_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m18_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m2.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m22.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m22_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m22_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m22_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m22_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m25.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m25_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m25_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m25_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m25_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m26.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m26_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m26_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m26_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m26_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m27.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m27_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m27_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m27_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m27_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m28.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m28_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m28_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m28_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m28_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m2_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m2_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m2_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m2_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m34.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m34_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m34_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m34_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m34_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m7.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m7_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m7_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m7_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh/m7_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m13.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m13_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m13_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m13_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m13_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m16.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m16_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m16_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m16_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m16_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m18.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m18_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m18_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m18_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m18_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m2.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m22.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m22_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m22_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m22_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m22_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m25.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m25_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m25_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m25_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m25_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m26.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m26_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m26_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m26_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m26_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m27.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m27_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m27_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m27_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m27_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m28.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m28_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m28_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m28_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m28_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m2_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m2_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m2_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m2_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m34.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m34_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m34_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m34_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m34_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m7.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m7_zh.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m7_zh_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m7_zh_Hans.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/locale_zh_CN/m7_zh_Hans_CN.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/m13.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/m13_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.data.BaseDataFileFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/m13_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/m16.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/m16_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.reflect.UpdateLoader"},
+    "pattern":"\\Qorg/apache/derby/loc/m16_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/m18.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/m18_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.shared.common.error.SQLWarningFactory"},
+    "pattern":"\\Qorg/apache/derby/loc/m18_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/m2.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/m22.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/m22_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/m22_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/m25.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/m25_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/m25_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/m26.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/m26_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.StorageFactoryService"},
+    "pattern":"\\Qorg/apache/derby/loc/m26_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/m27.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/m27_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.log.LogToFile"},
+    "pattern":"\\Qorg/apache/derby/loc/m27_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/m28.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/m28_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.raw.RawStore"},
+    "pattern":"\\Qorg/apache/derby/loc/m28_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/m2_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.EmbedConnection"},
+    "pattern":"\\Qorg/apache/derby/loc/m2_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/m34.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/m34_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.store.access.sort.MergeSortInfo"},
+    "pattern":"\\Qorg/apache/derby/loc/m34_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/m7.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/m7_en.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.jdbc.Util"},
+    "pattern":"\\Qorg/apache/derby/loc/m7_en_US.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.monitor.BaseMonitor"},
+    "pattern":"\\Qorg/apache/derby/modules.properties\\E"
+  }, {
+    "condition":{"typeReachable":"org.apache.derby.impl.services.jmx.JMXManagementService"},
+    "pattern":"jdk.jfr:\\Qjdk/jfr/internal/query/view.ini\\E"
+  }]},
+  "bundles":[{
+    "name":"org.apache.derby.loc.locale_zh.m13",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m16",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m18",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m2",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m22",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m25",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m26",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m27",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m28",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m34",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh.m7",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m13",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m16",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m18",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m2",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m22",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m25",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m26",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m27",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m28",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m34",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.locale_zh_CN.m7",
+    "locales":["zh-CN"]
+  }, {
+    "name":"org.apache.derby.loc.m13",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m16",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m18",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m2",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m22",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m25",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m26",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m27",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m28",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m34",
+    "locales":["en-US"]
+  }, {
+    "name":"org.apache.derby.loc.m7",
+    "locales":["en-US"]
+  }, {
+    "name":"sun.util.resources.cldr.TimeZoneNames",
+    "locales":["und"]
+  }]
+}
